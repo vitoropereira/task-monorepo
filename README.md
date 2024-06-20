@@ -1,13 +1,25 @@
-# Turborepo starter
+# Task Monorepo
 
-This is an official starter Turborepo.
+Project Tasks to test turborepo usage (monorepo). 
 
-## Using this example
+## Start with
 
 Run the following command:
 
-```sh
-npx create-turbo@latest
+```bash
+# Clone este repositório
+$ git clone https://github.com/vitoropereira/task-monorepo.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd task-monorepo
+
+# Instale as dependências
+$ pnpm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev ou yarn dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
 
 ## What's inside?
