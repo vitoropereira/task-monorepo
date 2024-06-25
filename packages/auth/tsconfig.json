@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/library.json",
+  "extends": "@saas/tsconfig/library.json",
   "include": [
     "src/**/*"
   ]

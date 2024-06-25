@@ -1,7 +1,10 @@
 {
-  "extends": "@repo/typescript-config/node.json",
-  "include": [
-    "src/**/*",
-    "../../packages/auth/src/permissions.ts"
-  ]
+  "extends": "@saas/tsconfig/node.json",
+  "include": ["src/**/*", "@types/*.d.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
 }

@@ -1,9 +1,9 @@
-/**  @typedef {import('prettier').Config} PrettierConfig */
+/** @typedef {import('prettier').Config} PrettierConfig */
 
 /** @type { PrettierConfig } */
 const config = {
   plugins: ['prettier-plugin-tailwindcss'],
-  printWith: 100,
+  printWidth: 80,
   tabWidth: 2,
   useTabs: false,
   semi: false,

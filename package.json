@@ -1,5 +1,5 @@
 {
-  "name": "task-monorepo",
+  "name": "task",
   "private": true,
   "scripts": {
     "build": "turbo build",
@@ -7,8 +7,9 @@
     "lint": "turbo lint"
   },
   "devDependencies": {
-    "turbo": "^2.0.4"
+    "turbo": "latest"
   },
+  "packageManager": "pnpm@9.1.4",
   "engines": {
     "node": ">=18"
   }
